@@ -1,12 +1,9 @@
 import React from 'react';
-import Cabecalho from '../src/componentes/cabecalho/cabecalho';
-import Corpo from '../src/componentes/corpo/corpo'
-import Rodape from './componentes/rodape/rodape';
-import Login from './componentes/login/login'
+import Login from './componentes/login/login';
 import { Routes, Route } from 'react-router-dom';
 import Home from './paginas/home';
 
-function App() {
+export function App() {
   return (
     <div>
       <Routes>
@@ -17,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
